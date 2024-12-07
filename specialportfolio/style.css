@@ -1,0 +1,1136 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 90px;
+    background-color:#fff;
+
+}
+.menu-bar ul{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 30px;
+
+}
+.menu-icon {
+    display: none; /* Show menu when toggled */
+}  
+.menubar_logo{
+    display: none;
+}
+.menu-bar ul a{
+   text-decoration: none;
+   color: #000;
+  
+}
+.menu-bar button{
+   border: 1px;
+   background-color: #fff;
+}
+.menu-bar button:hover{
+    background-color: rgb(0, 255, 60);
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px ;
+   
+ }
+
+.menu-bar li{
+    margin-left: 10px;
+    list-style: none;
+    
+}
+
+.tosin_logo{
+    border-radius: 10px;
+    width: 80px;
+    margin: 20px;
+    height: 50px;
+}
+.developer_image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/IMG-20240622-WA0004.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position-y: -200px;
+   
+
+}
+
+.background_upperword{
+    color: #fff;
+    margin:0px;
+    margin-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+.background-downword{
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.about_me{
+    display: flex;
+    margin-left: 80px;
+}
+.about_upperword{
+    margin: 30px;
+}
+.about_downword{
+    margin-top: 20px;
+    color: #524f4f;
+}
+.round_image{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-left: 200px;
+}
+.social_media{
+    display: flex;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.connect{
+    margin-top: 20px;
+}
+.our_services{
+    border: 1px solid white;
+    height: 520px;
+    background-color: whitesmoke;
+}
+.ourservice_word{
+    text-align: center;
+
+}
+.ourservice_downword{
+    text-align: center;
+    color: #524f4f;
+    
+}
+.frontend_box{
+    border: 1px solid white;
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+    box-shadow: 1px 2px 3px 4px white;
+    background-color: white;
+}
+.frontend_image{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+}
+.frontend_upperword{
+    font-size: 20px;
+    text-align: center;
+}
+.frontend_downword{
+    margin-left: 10px;
+    color: #524f4f;
+}
+.backend_box{
+    border: 1px solid white;
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+    box-shadow: 1px 2px 3px 4px white;
+    background-color: white;
+}
+.backend_image{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+}
+.backend_upperword{
+    font-size: 20px;
+    text-align: center;
+}
+.backend_downword{
+    margin-left: 10px;
+    color: #524f4f;
+}
+.database_box{
+    border: 1px solid white;
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+    box-shadow: 1px 2px 3px 4px white;
+    background-color: white;
+}
+.database_image{
+    border-radius: 10px;
+    width: 80px;
+    height: 70px;
+    margin-left: 120px;
+}
+.database_upperword{
+    font-size: 20px;
+    text-align: center;
+}
+
+.database_downword{
+    margin-left: 10px;
+    color: #524f4f;
+}
+.ourservice_box{
+    display: flex;
+    margin-top: 100px;
+}
+.project_image{
+    display: flex;
+    margin: 50px;
+}
+.calculator_group{
+    margin-left: 50px;
+}
+.calculator_image{
+    border-radius: 200px;
+}
+.digital_group{
+    margin-left: 50px;
+    
+}
+.digital_image{
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+.navbar_group{
+    margin-left: 50px;
+}
+.navbar_image{
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+.tipcalculator_group{
+    margin-left: 50px;
+}
+.tipcalculator_image{
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+.project_word{
+    text-align: center;
+    margin-top: 30px;
+}
+.project_downword{
+    text-align: center;
+}
+.calculator_word{
+    margin-left: 70px;
+}
+.digital_word{
+    margin-left: 70px;
+}
+.navbar_word{
+    margin-left: 80px;
+}
+.tipcalculator_word{
+    margin-left: 70px;
+}
+.footer{
+    border: 1px solid;
+    height: 100px;
+    background-color: #000;
+}
+.footer_word{
+    color: rgb(77, 76, 76);
+    text-align: center;
+    margin-top: 20px;
+}
+@media screen and (max-width:400px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        height: 90px;
+        background-color:#fff;
+    
+    }
+    
+    .menu-list.show {
+        display: block; /* Show menu when toggled */
+    }    
+   .menu-list li{
+    margin-top: 50px;
+    
+   }
+    
+   .menu-icon{
+    display: block;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: #fff;
+    
+   }
+    .menu-bar ul{
+        display: none;
+        margin-left:0;
+        margin-top: 30px;
+       
+        
+    }
+    .menu-bar ul a{
+       text-decoration: none;
+       color: #000;
+      
+    }
+    .menu-bar button  {
+       border: 1px white;
+       background-color: #9f9610;
+       border-radius: 30px;
+       overflow:visible;
+       width: 90px;
+    }
+    .menu-bar button a:hover{
+        background-color: rgb(0, 255, 81);
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px ;
+       
+     }
+    
+    .menu-bar li{
+        margin-left: 10px;
+        list-style: none;
+        
+    }
+    .tosin_logo{
+        border-radius: 10px;
+        width: 80px;
+        margin: 20px;
+        height: 50px;
+    }
+    .developer_image{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/IMG-20240622-WA0004.jpg);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -60px;
+        
+       
+    
+    }
+    
+    .background_upperword{
+        color: #fff;
+        margin:0px;
+        margin-left: 40px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        
+    }
+    .background-downword{
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .about_me{
+        display: flex;
+        margin-left: 30px;
+    }
+    .about_upperword{
+        margin: 30px;
+    }
+    .about_downword{
+        margin-top: 20px;
+        color: #524f4f;
+    }
+    .round_image{
+        display: none;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+        margin-left: 200px;
+    }
+    .social_media{
+        display: flex;
+    }
+    .whatsapp{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .instagram{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .our_services{
+        border: 1px solid #fff;
+        height: 1100px;
+        background-color: whitesmoke;
+    }
+    .ourservice_word{
+        text-align: center;
+    
+    }
+    .ourservice_downword{
+        text-align: center;
+        color: #524f4f;
+        
+    }
+    .frontend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin: 5px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .frontend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .frontend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .frontend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+        font-size: 13px;
+    }
+    .backend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin: 5px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .backend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .backend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .backend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .database_box{
+        border: 1px solid #fff;
+        height: 300px;
+        width: 310px;
+        margin-left: 5px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .database_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .database_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .database_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .ourservice_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 5px;
+    }
+    .project_image{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+    .calculator_group{
+        margin-left: 2px;
+    }
+    .calculator_image{
+        border-radius: 200px;
+    }
+    .digital_group{
+        margin-left: 2px;
+        
+    }
+    .digital_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .navbar_group{
+        margin-left: 2px;
+    }
+    .navbar_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .tipcalculator_group{
+        margin-left: 2px;
+    }
+    .tipcalculator_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .project_word{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .project_downword{
+        text-align: center;
+    }
+    .calculator_word{
+        margin-left: 70px;
+    }
+    .digital_word{
+        margin-left: 70px;
+    }
+    .navbar_word{
+        margin-left: 80px;
+    }
+    .tipcalculator_word{
+        margin-left: 70px;
+    }
+    .footer{
+        border: 1px solid;
+        height: 100px;
+        background-color: #000;
+    }
+    .footer_word{
+        color: rgb(77, 76, 76);
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+    
+  
+@media screen and (min-width:400px) and (max-width:600px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        height: 90px;
+        background-color:#fff;
+    
+    }
+    .menubar_logo{
+        display: block;
+        margin-left: 200px;
+        margin-top: 5px;
+        width: 70px;
+        height: 70px;
+    }
+    .menu-list.show {
+        display: block; /* Show menu when toggled */
+    }    
+   .menu-list li{
+    margin-top: 50px;
+    
+   }
+    
+   .menu-icon{
+    display: block;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: #fff;
+    
+   }
+    .menu-bar ul{
+        display: none;
+        margin-left:0;
+        margin-top: 30px;
+       
+        
+    }
+    .menu-bar ul a{
+       text-decoration: none;
+       color: #000;
+      
+    }
+    .menu-bar button  {
+       border: 1px white;
+       background-color: #9f9610;
+       border-radius: 30px;
+       overflow:visible;
+       width: 90px;
+    }
+    .menu-bar button a:hover{
+        background-color: rgb(0, 255, 81);
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px ;
+       
+     }
+    
+    .menu-bar li{
+        margin-left: 10px;
+        list-style: none;
+        
+    }
+   .tosin_logo{
+        border-radius: 10px;
+        width: 80px;
+        margin: 20px;
+        height: 50px;
+    }
+    .developer_image{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/IMG-20240622-WA0004.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position-y: -50px;
+        
+       
+    
+    }
+    
+    .background_upperword{
+        color: #fff;
+        margin:0px;
+        margin-left: 40px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        
+    }
+    .background-downword{
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .about_me{
+        display: flex;
+        margin-left: 30px;
+    }
+    .about_upperword{
+        margin: 30px;
+    }
+    .about_downword{
+        margin-top: 20px;
+        color: #524f4f;
+    }
+    .round_image{
+        display: none;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+        margin-left: 200px;
+    }
+    .social_media{
+        display: flex;
+    }
+    .whatsapp{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .instagram{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .our_services{
+        border: 1px solid #fff;
+        height: 1100px;
+        background-color: whitesmoke;
+    }
+    .ourservice_word{
+        text-align: center;
+    
+    }
+    .ourservice_downword{
+        text-align: center;
+        color: #524f4f;
+        
+    }
+    .frontend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin: 5px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .frontend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .frontend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .frontend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+        font-size: 13px;
+    }
+    .backend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin-left: 5px;
+        margin-top: 8px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .backend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .backend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .backend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .database_box{
+        border: 1px solid #fff;
+        height: 300px;
+        width: 310px;
+        margin-left: 5px;
+        margin-top: 10px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .database_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .database_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .database_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .ourservice_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .project_image{
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+    }
+    .calculator_group{
+        margin-left: 2px;
+    }
+    .calculator_image{
+        border-radius: 200px;
+    }
+    .digital_group{
+        margin-left: 2px;
+        
+    }
+    .digital_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .navbar_group{
+        margin-left: 2px;
+    }
+    .navbar_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .tipcalculator_group{
+        margin-left: 2px;
+    }
+    .tipcalculator_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .project_word{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .project_downword{
+        text-align: center;
+    }
+    .calculator_word{
+        margin-left: 70px;
+    }
+    .digital_word{
+        margin-left: 70px;
+    }
+    .navbar_word{
+        margin-left: 80px;
+    }
+    .tipcalculator_word{
+        margin-left: 70px;
+    }
+    .footer{
+        border: 1px solid;
+        height: 100px;
+        background-color: #000;
+    }
+    .footer_word{
+        color: rgb(77, 76, 76);
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        height: 90px;
+        background-color:#fff;
+    
+    }
+    .menubar_logo{
+        display: block;
+        margin-left: 500px;
+        margin-top: 5px;
+        width: 70px;
+        height: 70px;
+    }
+    .menu-list.show {
+        display: block; /* Show menu when toggled */
+    }    
+   .menu-list li{
+    margin-top: 50px;
+    
+   }
+    
+   .menu-icon{
+    display: block;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: #fff;
+    
+   }
+    .menu-bar ul{
+        display: none;
+        margin-left:0;
+        margin-top: 30px;
+       
+        
+    }
+    .menu-bar ul a{
+       text-decoration: none;
+       color: #000;
+      
+    }
+    .menu-bar button  {
+       border: 1px white;
+       background-color: #9f9610;
+       border-radius: 30px;
+       overflow:visible;
+       width: 90px;
+    }
+    .menu-bar button a:hover{
+        background-color: rgb(0, 255, 81);
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px ;
+       
+     }
+    
+    .menu-bar li{
+        margin-left: 10px;
+        list-style: none;
+        
+    }
+   .tosin_logo{
+        border-radius: 10px;
+        width: 80px;
+        margin: 20px;
+        height: 50px;
+    }
+    .developer_image{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/IMG-20240622-WA0004.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position-y: -60px;
+        
+       
+    
+    }
+    
+    .background_upperword{
+        color: #fff;
+        margin:0px;
+        margin-left: 40px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        
+    }
+    .background-downword{
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .about_me{
+        display: flex;
+        margin-left: 30px;
+    }
+    .about_upperword{
+        margin: 30px;
+    }
+    .about_downword{
+        margin-top: 20px;
+        color: #524f4f;
+    }
+    .round_image{
+        display: none;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+        margin-left: 200px;
+    }
+    .social_media{
+        display: flex;
+    }
+    .whatsapp{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .instagram{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .our_services{
+        border: 1px solid #fff;
+        height: 1500px;
+        background-color: whitesmoke;
+    }
+    .ourservice_word{
+        text-align: center;
+    
+    }
+    .ourservice_downword{
+        text-align: center;
+        color: #524f4f;
+        
+    }
+    .frontend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin-left: 200px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .frontend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .frontend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .frontend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+        font-size: 13px;
+    }
+    .backend_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin: 200px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .backend_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .backend_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    .backend_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .database_box{
+        border: 1px solid #fff;
+        height: 250px;
+        width: 310px;
+        margin-left: 200px;
+        box-shadow: 1px 2px 3px 4px white;
+        background-color: white;
+    }
+    .database_image{
+        border-radius: 10px;
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    }
+    .database_upperword{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .database_downword{
+        margin-left: 10px;
+        color: #524f4f;
+    }
+    .ourservice_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .project_image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+    }
+    .calculator_group{
+        margin-left: 2px;
+    }
+    .calculator_image{
+        border-radius: 200px;
+    }
+    .digital_group{
+        margin-left: 2px;
+        
+    }
+    .digital_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .navbar_group{
+        margin-left: 2px;
+    }
+    .navbar_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .tipcalculator_group{
+        margin-left: 2px;
+    }
+    .tipcalculator_image{
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .project_word{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .project_downword{
+        text-align: center;
+    }
+    .calculator_word{
+        margin-left: 70px;
+    }
+    .digital_word{
+        margin-left: 70px;
+    }
+    .navbar_word{
+        margin-left: 80px;
+    }
+    .tipcalculator_word{
+        margin-left: 70px;
+    }
+    .footer{
+        border: 1px solid;
+        height: 100px;
+        background-color: #000;
+    }
+    .footer_word{
+        color: rgb(77, 76, 76);
+        text-align: center;
+        margin-top: 20px;
+    }
+}
